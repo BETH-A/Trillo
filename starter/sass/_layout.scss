@@ -28,11 +28,16 @@
 
     flex: 0 0 18%;  
     //grow=0(no),shrink=0(no), basis (width)=18% (will auto adjust due to %)
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel-view {
     background-color: #fff;
     background-color: teal;
+
+    height: 80rem;
 
     flex: 1;
 }
